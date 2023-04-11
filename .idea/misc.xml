@@ -5,11 +5,14 @@
       <map>
         <entry key="app/src/main/res/layout/activity_compass1.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/activity_compass2.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_fused_location_provider_client.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_gpstracker_demo.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/activity_runtime_ask_permision_tuto.xml" value="0.36041666666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

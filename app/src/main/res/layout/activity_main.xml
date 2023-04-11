@@ -10,10 +10,10 @@
         android:id="@+id/btnCompass1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="44dp"
         android:text="compass1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,11 +21,41 @@
         android:id="@+id/btnCompass2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:text="compass2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCompass1" />
+
+    <Button
+        android:id="@+id/btn_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="GPS tracker demo"
+        app:layout_constraintEnd_toEndOf="@+id/btnCompass2"
+        app:layout_constraintStart_toStartOf="@+id/btnCompass2"
+        app:layout_constraintTop_toBottomOf="@+id/btnCompass2" />
+
+    <Button
+        android:id="@+id/btnFused"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="fused tutorial"
+        app:layout_constraintEnd_toEndOf="@+id/btn_gps"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/btn_gps"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gps" />
+
+    <Button
+        android:id="@+id/btn_runtime_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Runtime permission"
+        app:layout_constraintEnd_toEndOf="@+id/btnFused"
+        app:layout_constraintStart_toStartOf="@+id/btnFused"
+        app:layout_constraintTop_toBottomOf="@+id/btnFused" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
